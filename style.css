@@ -117,5 +117,78 @@
     padding-right: 0px;
 }
 /*end home*/
+/*start title*/
+.title h1 {
+    font-size: 3rem;  
+    font-weight: bold; 
+    margin-left: 30px;  
 
+}
+.title h1 span {
+    color: #EBD96B;  
+    font-weight: bold;  
+}
 
+/*end title*/
+/*start cards*/
+.container {
+    margin-top: 60px;
+
+  
+}
+.card {
+    border: none;  
+    border-radius: 10px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  
+    transition: transform 0.3s; 
+    margin: auto;
+
+}
+.card:hover {
+    transform: translateY(-10px);  
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0 0; 
+     
+}
+
+.card-title {
+    font-size: 1.2rem; 
+    color: #000; 
+   margin-left: auto; 
+   display: flex; 
+   
+}
+.card-text {
+  
+}
+.more{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #666;
+ }
+ .orange{
+     color: #ff5733;  ;
+ }
+ .purple{
+    color: #b199c6;
+ }
+ .blue{
+    color:  #99d4d4;
+ }
+.card-body i {
+   
+    font-size: 1.5rem;    
+    cursor: pointer;  
+    padding-left: 80px;
+    
+}
+.card-body i:hover {
+    animation: none;  
+    transform: translateX(5px);  
+}
+/*end cards*/
+/**/
+/**/
