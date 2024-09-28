@@ -160,9 +160,7 @@
    display: flex; 
    
 }
-.card-text {
-  
-}
+
 .more{
     display: flex;
     justify-content: space-between;
@@ -190,5 +188,70 @@
     transform: translateX(5px);  
 }
 /*end cards*/
-/**/
-/**/
+/*star payday*/
+.mena{
+    background:   linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+
+}
+.photo img {
+    max-width: 100%;  
+    height: auto;  
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    box-shadow: none;
+}
+
+.pay {
+ 
+    flex-direction: column;
+    justify-content: center;  
+ padding-top: 30%;
+ margin-left: 25%;
+}
+
+.pay h1 {
+    font-size: 4rem;  
+    font-weight: bold; 
+    color: #000;  
+    margin-bottom: 15px; 
+
+
+
+}
+.pay h1 span{
+    background-color: white !important;
+    margin-right: 50px;
+   padding: 0 10px;
+}
+.pay p {
+    font-size: 1.2rem;  
+    font-weight: 100px;
+    color: #000;  
+    margin-bottom: 10px; 
+
+    
+
+}
+ .pay p span{
+    font-weight: bold; 
+
+ }
+
+.button {
+    margin-top: 20px; 
+ 
+}
+
+.btn-main {
+    background-color:  #000  !important;
+     color: white !important;
+    width: 25%; 
+  padding: 20px;
+  font-size: 25em; 
+  border-radius: 5px;  
+  cursor: pointer;  
+  margin-right: 70px;
+  
+   
+  }
+/*end pay day*/
