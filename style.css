@@ -199,6 +199,7 @@
     border-radius: 10px; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
     box-shadow: none;
+    margin-right: 90%;
 }
 
 .pay {
@@ -251,7 +252,67 @@
   border-radius: 5px;  
   cursor: pointer;  
   margin-right: 70px;
-  
    
   }
 /*end pay day*/
+/*start Young’s Favourite*/
+.title-section h1 {
+    font-size: 3rem;  
+    font-weight: bold; 
+    margin-left: 30px;  
+
+}
+.title-section h1 span {
+    color: #EBD96B;  
+    font-weight: bold;  
+}
+
+.container {
+    margin-top: 60px;
+  
+}
+.card-vnvn {
+    border: none;  
+    border-radius: 10px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);  
+    transition: transform 0.3s; 
+    margin: auto;
+
+}
+.card-vnvn:hover {
+    transform: translateY(-15px);  
+}
+
+.card-vnvn-img-top {
+    border-radius: 10px 10px 0 0; 
+     
+}
+.vnvn{
+    width: 25px;
+    height:30px;
+    top: 70px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 50px;
+    
+}
+.card-vnvn  .card-body{
+    padding-bottom: 20px;
+}
+
+.card-body i {
+   
+    font-size: 1.5rem;    
+    cursor: pointer;  
+    margin-right: 80px;
+    
+}
+.card-body i:hover {
+    animation: none;  
+    transform: translateX(10px);  
+}
+.vnvn-color{
+    color: #000;
+}
+/*end Young’s Favourite*/
