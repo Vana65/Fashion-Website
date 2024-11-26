@@ -19,6 +19,7 @@ html {
 .container {
   margin-bottom: 30px;
 }
+
 .navbar-brand {
   display: flex;
   align-items: center;
@@ -43,7 +44,6 @@ html {
 }
 .navbar-nav .nav-item .nav-link:hover {
   color: #000;
-  border-bottom: 2px solid;
   transition: color 0.7s;
 }
 
@@ -57,7 +57,7 @@ html {
 /*start home*/
 .home .container {
   background: #f4f6f5;
-  height: 100vh;
+  padding-bottom: 20px;
   border-radius: 59px;
   max-width: 1150px;
   width: 100%;
@@ -73,7 +73,6 @@ html {
   font-size: 1.2rem;
   margin: 10px 0;
   color: #666;
-  width: 300px;
 }
 
 .home .container .row .content h1 span {
@@ -82,8 +81,7 @@ html {
   line-height: 1.2;
   margin: 0px;
   color: #000;
-  padding-left: 20px;
-  padding-right: 70px;
+  padding: 0 30px;
 }
 
 .home .container img {
@@ -93,9 +91,22 @@ html {
 .btn-main {
   background-color: #000 !important;
   color: white !important;
-  margin: 0 20px;
-  padding: 20px;
-  width: 400px;
+  padding: 12px 20px !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.btn-main:hover {
+  background-color: #ebd96b !important;
+  color: #000 !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 .box img {
   margin-top: 40px;
@@ -103,6 +114,13 @@ html {
   width: 1520px;
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.home-content {
+  text-align: center;
+}
+.home-content p {
+  text-align: center !important;
 }
 /*end home*/
 /*start title*/
@@ -142,7 +160,7 @@ html {
 
 .more {
   display: flex;
-  justify-content: space;
+  justify-content: space-between;
   font-weight: bold;
   color: #666;
 }
@@ -163,10 +181,15 @@ html {
 .card-body i:hover {
   animation: none;
   transform: translateX(5px);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 /*end cards*/
 /*star payday*/
-.mena-container {
+.pay-container {
   background: linear-gradient(
     1.32deg,
     #e0c340 0.13%,
@@ -202,23 +225,18 @@ html {
   box-shadow: none;
   margin-right: 90%;
 }
-
 .pay {
-  flex-direction: column;
-  justify-content: center;
-  padding-top: 30%;
-  margin-left: 25%;
+  padding: 30px 0;
 }
 
 .pay h1 {
   font-size: 4rem;
   font-weight: bold;
   color: #000;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .pay h1 span {
   background-color: white !important;
-  margin-right: 50px;
   padding: 0 10px;
 }
 .pay p {
@@ -238,12 +256,10 @@ html {
 .btn-main {
   background-color: #000 !important;
   color: white !important;
-  width: 25%;
   padding: 20px;
   font-size: 25em;
   border-radius: 5px;
   cursor: pointer;
-  margin-right: 70px;
 }
 /*end pay day*/
 /*start Young’s Favourite*/
@@ -257,21 +273,21 @@ html {
   font-weight: bold;
 }
 
-.card-vnvn {
+.card-Trending {
   border: none;
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   margin: auto;
 }
-.card-vnvn:hover {
+.card-Trending:hover {
   transform: translateY(-15px);
 }
 
-.card-vnvn-img-top {
+.card-Trending-img-top {
   border-radius: 10px 10px 0 0;
 }
-.vnvn {
+.Trending {
   width: 25px;
   height: 30px;
   top: 70px;
@@ -280,7 +296,7 @@ html {
   opacity: 0px;
   margin-top: 50px;
 }
-.card-vnvn .card-body {
+.card-Trending .card-body {
   padding-bottom: 20px;
 }
 
@@ -293,59 +309,11 @@ html {
   animation: none;
   transform: translateX(10px);
 }
-.vnvn-color {
+.Trending-color {
   color: #000;
-  padding-top: 7px;
 }
 /*end Young’s Favourite*/
 /**/
-
-.card-body {
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-}
-
-.card-title {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 15px;
-}
-
-.card-text {
-  font-size: 16px;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-.card-mmnn {
-  display: flex;
-  justify-content: center;
-  margin: 15px 0;
-  padding-top: 50%;
-}
-
-.card-mmnn img {
-  max-width: 80%;
-  display: flex;
-  justify-content: center;
-
-  padding-top: 90%;
-  margin-right: 100px;
-  padding-right: 30px;
-}
-
-.card-mnmn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-mnmn img {
-  max-width: 80%;
-  border-radius: 10px;
-}
 
 /* download start */
 
@@ -353,12 +321,10 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
 }
 .download-mobile {
   width: 60%;
   max-width: 100%;
-  height: auto;
 }
 .download-text {
   margin-top: 30px;
@@ -373,7 +339,6 @@ html {
 .download-content {
   display: flex;
   align-items: center;
-  min-height: 100vh;
 }
 
 @media (max-width: 768px) {
@@ -392,13 +357,6 @@ html {
     font-size: 25px !important;
     text-align: center;
     margin: 50px 0 !important;
-  }
-
-  .description .btn {
-    display: inline-block;
-    width: 210%;
-    text-align: center;
-    margin: 0 auto;
   }
 }
 
